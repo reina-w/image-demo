@@ -23,7 +23,7 @@ st.image("Milvus Logo_Official.png", width=200)
 st.title("Milvus and OpenAI Embedding Search")
 
 # Set OpenAI API key
-openai.api_key = os.getenv("api_key")
+openai.api_key = st.secrets["api_key"]
 
 # Set SSL context
 ssl_context = ssl.create_default_context(cafile=certifi.where())
