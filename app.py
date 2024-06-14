@@ -24,7 +24,7 @@ st.title("Milvus and OpenAI Embedding Search")
 
 # Set OpenAI API key
 # openai.api_key = st.secrets["api_key"]
-openai.api_key = os.environ.get("api_key")
+openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 # Set SSL context
 ssl_context = ssl.create_default_context(cafile=certifi.where())
