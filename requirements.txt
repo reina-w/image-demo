@@ -1,5 +1,0 @@
-openai
-pymilvus
-tqdm
-streamlit
-certifi
