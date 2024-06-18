@@ -1,9 +1,10 @@
 streamlit==1.10.0
 streamlit-cropper==0.1.1
 requests==2.27.1
-torch==2.0.1  # Updated to a compatible version
+torch==2.0.1
 Pillow==9.0.1
 timm==0.4.12
 scikit-learn==1.0.2
 pymilvus==2.1.2
 certifi==2021.10.8
+Cython==0.29.23
